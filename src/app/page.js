@@ -1,11 +1,10 @@
-import Footer from '@/components/layout/Footer';
-import Header from '@/components/layout/Header';
 import Section from '@/components/layout/Section';
-import Image from 'next/image';
+import Intro from './main/intro';
 
 export default function Home() {
   return (
     <>
+      <Intro />
       <Section
         tit="ㅋㅋㅋ"
         desc="ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ"
